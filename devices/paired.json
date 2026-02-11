@@ -112,7 +112,8 @@
           "operator.pairing"
         ],
         "createdAtMs": 1770823106008,
-        "rotatedAtMs": 1770823106077
+        "rotatedAtMs": 1770823106077,
+        "lastUsedAtMs": 1770823253104
       }
     },
     "createdAtMs": 1770823106007,
