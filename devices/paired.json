@@ -86,5 +86,36 @@
     },
     "createdAtMs": 1770802505970,
     "approvedAtMs": 1770802505970
+  },
+  "835f17384c40859be413e12836afb10e3765a409668fcb84cdda7e8884bff42d": {
+    "deviceId": "835f17384c40859be413e12836afb10e3765a409668fcb84cdda7e8884bff42d",
+    "publicKey": "h2lsRUjk9HzfmleO2O380K4KIipa_f-LZTKdvJnnutQ",
+    "platform": "linux",
+    "clientId": "cli",
+    "clientMode": "cli",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "11f249fdaf024dea85eca44731face6d",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.approvals",
+          "operator.pairing"
+        ],
+        "createdAtMs": 1770823106008,
+        "rotatedAtMs": 1770823106077
+      }
+    },
+    "createdAtMs": 1770823106007,
+    "approvedAtMs": 1770823106077
   }
 }
