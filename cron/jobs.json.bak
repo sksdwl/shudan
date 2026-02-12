@@ -7,7 +7,7 @@
       "name": "AI Hot News Collector",
       "enabled": true,
       "createdAtMs": 1770824984698,
-      "updatedAtMs": 1770872439281,
+      "updatedAtMs": 1770876139936,
       "schedule": {
         "expr": "0 * * * *",
         "kind": "cron",
@@ -23,11 +23,10 @@
         "mode": "announce"
       },
       "state": {
-        "nextRunAtMs": 1770876000000,
-        "lastRunAtMs": 1770872439281,
+        "nextRunAtMs": 1770879600000,
+        "lastRunAtMs": 1770876139937,
         "lastStatus": "ok",
-        "lastDurationMs": 67660,
-        "runningAtMs": 1770876000147
+        "lastDurationMs": 202427
       }
     }
   ]
