@@ -1,7 +1,7 @@
 {
   "agent:xiaoting:main": {
     "sessionId": "e9bfa9d1-5684-4ae9-a810-11180d49ee50",
-    "updatedAt": 1770874843670,
+    "updatedAt": 1770874932534,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
@@ -109,15 +109,15 @@
     },
     "lastChannel": "feishu",
     "lastAccountId": "default",
-    "inputTokens": 20500,
-    "outputTokens": 51,
-    "totalTokens": 20500,
+    "inputTokens": 22069,
+    "outputTokens": 269,
+    "totalTokens": 22069,
     "modelProvider": "coze",
     "model": "doubao-seed-1-8-251228",
     "contextTokens": 128000,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1770874825861,
+      "generatedAt": 1770874894976,
       "sessionId": "e9bfa9d1-5684-4ae9-a810-11180d49ee50",
       "sessionKey": "agent:xiaoting:main",
       "provider": "coze",
@@ -129,8 +129,8 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 17698,
-        "projectContextChars": 5855,
+        "chars": 17946,
+        "projectContextChars": 6103,
         "nonProjectContextChars": 11843
       },
       "injectedWorkspaceFiles": [
@@ -138,8 +138,8 @@
           "name": "AGENTS.md",
           "path": "/workspace/projects/agents/xiaoting/AGENTS.md",
           "missing": false,
-          "rawChars": 1888,
-          "injectedChars": 1888,
+          "rawChars": 2136,
+          "injectedChars": 2136,
           "truncated": false
         },
         {

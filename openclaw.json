@@ -103,7 +103,7 @@
         "id": "xiaoting",
         "name": "小婷",
         "model": {
-          "primary": "coze/doubao-seed-1-8-251228"
+          "primary": "coze/glm-4-7-251222"
         },
         "workspace": "/workspace/projects/agents/xiaoting",
         "heartbeat": {
