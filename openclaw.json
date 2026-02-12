@@ -135,7 +135,9 @@
       "enabled": true,
       "appId": "cli_a901ee73898a9cee",
       "appSecret": "99OisAnIlOo6BtG5JkNWQB8CE1ufoEob",
-      "defaultAgent": "xiaoting"
+      "defaultAgent": "xiaoting",
+      "debug": false,
+      "showAttachments": false
     }
   },
   "gateway": {

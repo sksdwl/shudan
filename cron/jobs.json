@@ -26,7 +26,8 @@
         "nextRunAtMs": 1770876000000,
         "lastRunAtMs": 1770872439281,
         "lastStatus": "ok",
-        "lastDurationMs": 67660
+        "lastDurationMs": 67660,
+        "runningAtMs": 1770876000147
       }
     }
   ]
