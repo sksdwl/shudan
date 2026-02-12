@@ -1,134 +1,149 @@
 {
+  "meta": {
+    "lastTouchedVersion": "2026.2.6-3",
+    "lastTouchedAt": "2026-02-11T15:20:35.489Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-02-05T16:16:05.545Z",
+    "lastRunVersion": "2026.2.1",
+    "lastRunCommand": "onboard",
+    "lastRunMode": "local"
+  },
+  "models": {
+    "providers": {
+      "coze": {
+        "baseUrl": "https://integration.coze.cn/api/v3",
+        "apiKey": "cTRmOGFjRDFzd3BIallxSjV5ZXpzSzduenJWcm5ibUc6REYwWGgwZzlYU0tPdnl0eDZ0TFB3aUFVSXhRdGVxWmRVQW40QVhyYXFpaW11OElvYzFGcEdGMmhOTUdZdDNsRg==",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "glm-4-7-251222",
+            "name": "GLM 4.7",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-v3-2-251201",
+            "name": "DeepSeek 3.2",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 96000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-r1-250528",
+            "name": "DeepSeek R1",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 96000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "doubao-seed-1-8-251228",
+            "name": "豆包 1.8",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          }
+        ]
+      }
+    }
+  },
   "agents": {
     "defaults": {
+      "model": {
+        "primary": "coze/glm-4-7-251222"
+      },
+      "workspace": "/workspace/projects/workspace",
       "compaction": {
         "mode": "safeguard"
       },
       "maxConcurrent": 4,
-      "model": {
-        "primary": "coze/glm-4-7-251222"
-      },
       "subagents": {
         "maxConcurrent": 8
-      },
-      "workspace": "/workspace/projects/workspace"
+      }
     }
+  },
+  "tools": {
+    "web": {
+      "search": {
+        "enabled": false
+      },
+      "fetch": {
+        "enabled": false
+      }
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
   },
   "commands": {
     "native": "auto",
     "nativeSkills": "auto"
   },
   "gateway": {
+    "port": 5000,
+    "mode": "local",
+    "bind": "loopback",
+    "controlUi": {
+      "enabled": true,
+      "allowedOrigins": [
+        "https://dev.coze.site"
+      ],
+      "dangerouslyDisableDeviceAuth": true
+    },
     "auth": {
       "mode": "token",
       "token": "4c224f6f-2cf5-47ae-81b3-6aaa3422dab4"
     },
-    "bind": "loopback",
-    "controlUi": {
-      "allowedOrigins": [
-        "https://dev.coze.site"
-      ],
-      "dangerouslyDisableDeviceAuth": true,
-      "enabled": true
-    },
-    "mode": "local",
-    "port": 5000,
-    "tailscale": {
-      "mode": "off",
-      "resetOnExit": false
-    },
     "trustedProxies": [
       "::1",
       "127.0.0.1"
-    ]
-  },
-  "messages": {
-    "ackReactionScope": "group-mentions"
-  },
-  "meta": {
-    "lastTouchedAt": "2026-02-07T15:38:05.339Z",
-    "lastTouchedVersion": "2026.2.3-1"
-  },
-  "models": {
-    "providers": {
-      "coze": {
-        "api": "openai-completions",
-        "apiKey": "${COZE_WORKLOAD_IDENTITY_API_KEY}",
-        "baseUrl": "${COZE_INTEGRATION_MODEL_BASE_URL}",
-        "models": [
-          {
-            "contextWindow": 200000,
-            "cost": {
-              "cacheRead": 0,
-              "cacheWrite": 0,
-              "input": 0,
-              "output": 0
-            },
-            "id": "glm-4-7-251222",
-            "input": [
-              "text"
-            ],
-            "maxTokens": 8192,
-            "name": "GLM 4.7",
-            "reasoning": false
-          },
-          {
-            "contextWindow": 96000,
-            "cost": {
-              "cacheRead": 0,
-              "cacheWrite": 0,
-              "input": 0,
-              "output": 0
-            },
-            "id": "deepseek-v3-2-251201",
-            "input": [
-              "text"
-            ],
-            "maxTokens": 8192,
-            "name": "DeepSeek 3.2",
-            "reasoning": false
-          },
-          {
-            "contextWindow": 96000,
-            "cost": {
-              "cacheRead": 0,
-              "cacheWrite": 0,
-              "input": 0,
-              "output": 0
-            },
-            "id": "deepseek-r1-250528",
-            "input": [
-              "text"
-            ],
-            "maxTokens": 8192,
-            "name": "DeepSeek R1",
-            "reasoning": false
-          },
-          {
-            "contextWindow": 128000,
-            "cost": {
-              "cacheRead": 0,
-              "cacheWrite": 0,
-              "input": 0,
-              "output": 0
-            },
-            "id": "doubao-seed-1-8-251228",
-            "input": [
-              "text"
-            ],
-            "maxTokens": 8192,
-            "name": "豆包 1.8",
-            "reasoning": false
-          }
-        ]
-      }
+    ],
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
     }
   },
-  "plugins": {
-    "entries": {},
-    "installs": {}
-  },
   "skills": {
+    "install": {
+      "nodeManager": "npm"
+    },
     "entries": {
       "1password": {
         "enabled": false
@@ -217,25 +232,15 @@
       "wacli": {
         "enabled": false
       }
-    },
-    "install": {
-      "nodeManager": "npm"
     }
   },
-  "tools": {
-    "web": {
-      "fetch": {
-        "enabled": false
-      },
-      "search": {
-        "enabled": false
-      }
-    }
+  "plugins": {
+    "entries": {},
+    "installs": {}
   },
-  "wizard": {
-    "lastRunAt": "2026-02-05T16:16:05.545Z",
-    "lastRunCommand": "onboard",
-    "lastRunMode": "local",
-    "lastRunVersion": "2026.2.1"
+  "channels": {
+    "feishu": {
+      "enabled": true
+    }
   }
 }

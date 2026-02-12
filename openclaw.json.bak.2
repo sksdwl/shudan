@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.2.6-3",
-    "lastTouchedAt": "2026-02-11T15:20:35.489Z"
+    "lastTouchedAt": "2026-02-11T15:20:36.602Z"
   },
   "wizard": {
     "lastRunAt": "2026-02-05T16:16:05.545Z",
@@ -115,6 +115,13 @@
   "commands": {
     "native": "auto",
     "nativeSkills": "auto"
+  },
+  "channels": {
+    "feishu": {
+      "enabled": true,
+      "appId": "cli_a901ee73898a9cee",
+      "appSecret": "99OisAnIlOo6BtG5JkNWQB8CE1ufoEob"
+    }
   },
   "gateway": {
     "port": 5000,
@@ -235,12 +242,11 @@
     }
   },
   "plugins": {
-    "entries": {},
+    "entries": {
+      "feishu": {
+        "enabled": true
+      }
+    },
     "installs": {}
-  },
-  "channels": {
-    "feishu": {
-      "enabled": true
-    }
   }
 }

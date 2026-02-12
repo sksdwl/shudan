@@ -1,12 +1,12 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.2.6-3",
-    "lastTouchedAt": "2026-02-11T15:38:46.356Z"
+    "lastTouchedAt": "2026-02-12T05:24:39.550Z"
   },
   "wizard": {
-    "lastRunAt": "2026-02-05T16:16:05.545Z",
-    "lastRunVersion": "2026.2.1",
-    "lastRunCommand": "onboard",
+    "lastRunAt": "2026-02-12T05:24:39.497Z",
+    "lastRunVersion": "2026.2.6-3",
+    "lastRunCommand": "doctor",
     "lastRunMode": "local"
   },
   "models": {
@@ -97,7 +97,21 @@
       "subagents": {
         "maxConcurrent": 8
       }
-    }
+    },
+    "list": [
+      {
+        "id": "xiaoting",
+        "name": "小婷",
+        "model": {
+          "primary": "coze/doubao-seed-1-8-251228"
+        },
+        "workspace": "/workspace/projects/agents/xiaoting",
+        "heartbeat": {
+          "every": "1h",
+          "prompt": "小互是不是太忙了？去看看他在做什么，给他发个关心的消息吧~"
+        }
+      }
+    ]
   },
   "tools": {
     "web": {
@@ -120,7 +134,8 @@
     "feishu": {
       "enabled": true,
       "appId": "cli_a901ee73898a9cee",
-      "appSecret": "99OisAnIlOo6BtG5JkNWQB8CE1ufoEob"
+      "appSecret": "99OisAnIlOo6BtG5JkNWQB8CE1ufoEob",
+      "defaultAgent": "xiaoting"
     }
   },
   "gateway": {
