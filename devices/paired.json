@@ -119,38 +119,5 @@
     "createdAtMs": 1770823106007,
     "approvedAtMs": 1770823106077,
     "displayName": "agent"
-  },
-  "15fca37bbf51286264d8a1ad7bfd32f2003ae0f04680f7c2ee356d848759abba": {
-    "deviceId": "15fca37bbf51286264d8a1ad7bfd32f2003ae0f04680f7c2ee356d848759abba",
-    "publicKey": "w2SnQORa_7zFtfVq3HbvheYOoY2FPn7fK0mm9DQpuVs",
-    "platform": "linux",
-    "clientId": "gateway-client",
-    "clientMode": "backend",
-    "role": "operator",
-    "roles": [
-      "operator"
-    ],
-    "scopes": [
-      "operator.admin",
-      "operator.approvals",
-      "operator.pairing"
-    ],
-    "tokens": {
-      "operator": {
-        "token": "58bdd9e6079b490f95b171910780bd75",
-        "role": "operator",
-        "scopes": [
-          "operator.admin",
-          "operator.approvals",
-          "operator.pairing"
-        ],
-        "createdAtMs": 1770873902877,
-        "rotatedAtMs": 1770873904290,
-        "lastUsedAtMs": 1770876189987
-      }
-    },
-    "createdAtMs": 1770873902876,
-    "approvedAtMs": 1770873904290,
-    "displayName": "agent"
   }
 }
