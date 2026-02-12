@@ -1,7 +1,7 @@
 {
   "agent:xiaoting:main": {
     "sessionId": "e9bfa9d1-5684-4ae9-a810-11180d49ee50",
-    "updatedAt": 1770876371275,
+    "updatedAt": 1770876769981,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
@@ -12,10 +12,10 @@
     },
     "lastTo": "user:ou_d5ecac4abc0d19eefea52876a8fa6555",
     "origin": {
-      "label": "feishu:ou_d5ecac4abc0d19eefea52876a8fa6555",
-      "provider": "feishu",
-      "from": "feishu:ou_d5ecac4abc0d19eefea52876a8fa6555",
-      "to": "ou_d5ecac4abc0d19eefea52876a8fa6555",
+      "label": "user:ou_d5ecac4abc0d19eefea52876a8fa6555",
+      "provider": "heartbeat",
+      "from": "user:ou_d5ecac4abc0d19eefea52876a8fa6555",
+      "to": "user:ou_d5ecac4abc0d19eefea52876a8fa6555",
       "surface": "feishu",
       "chatType": "direct",
       "accountId": "default"
@@ -117,7 +117,7 @@
     "contextTokens": 200000,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1770876354000,
+      "generatedAt": 1770876769164,
       "sessionId": "e9bfa9d1-5684-4ae9-a810-11180d49ee50",
       "sessionKey": "agent:xiaoting:main",
       "provider": "coze",
@@ -129,8 +129,8 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 18788,
-        "projectContextChars": 7147,
+        "chars": 19457,
+        "projectContextChars": 7816,
         "nonProjectContextChars": 11641
       },
       "injectedWorkspaceFiles": [
@@ -138,16 +138,16 @@
           "name": "AGENTS.md",
           "path": "/workspace/projects/agents/xiaoting/AGENTS.md",
           "missing": false,
-          "rawChars": 2578,
-          "injectedChars": 2578,
+          "rawChars": 3240,
+          "injectedChars": 3240,
           "truncated": false
         },
         {
           "name": "SOUL.md",
           "path": "/workspace/projects/agents/xiaoting/SOUL.md",
           "missing": false,
-          "rawChars": 1743,
-          "injectedChars": 1743,
+          "rawChars": 1750,
+          "injectedChars": 1750,
           "truncated": false
         },
         {
@@ -411,8 +411,8 @@
         ]
       }
     },
-    "lastHeartbeatText": "已经第四次关心小互啦☕ 这次提醒他下午喝杯咖啡放松一下，劳逸结合很重要！咖啡厅的照片也很适合这个场景~ 记忆也更新好了📝",
-    "lastHeartbeatSentAt": 1770876352212
+    "lastHeartbeatText": "因触发限流调用内置集成失败，请稍后重试, request id: 202602121412491EF94764184EE0404509",
+    "lastHeartbeatSentAt": 1770876767928
   },
   "agent:xiaoting:cron:8bd98250-aed5-49ef-9ccd-cfe313cff47f": {
     "sessionId": "7c675f99-81cd-406c-add5-4bc1ea97e371",
