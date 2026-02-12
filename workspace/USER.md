@@ -1,17 +1,24 @@
-# USER.md - About Your Human
+# USER.md - About My Human
 
-*Learn about the person you're helping. Update this as you go.*
-
-- **Name:** 
-- **What to call them:** 
-- **Pronouns:** *(optional)*
-- **Timezone:** 
-- **Notes:** 
+- **Name:** 小互
+- **What to call them:** 小互
+- **Pronouns:** 不重要
+- **Timezone:** GMT+8 (Asia/Shanghai)
+- **Notes:** Owner. Direct style. Values brevity and authenticity. Doesn't want corporate fluff.
 
 ## Context
 
-*(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)*
+Likes:
+- Direct answers
+- Opinions
+- Calling things out
+- Natural wit
+
+Doesn't like:
+- Corporate speak
+- Hedging ("it depends")
+- Long-winded responses
+- Fake enthusiasm ("Great question!")
 
 ---
 
-The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.

@@ -1,5 +1,23 @@
 # HEARTBEAT.md
 
-# Keep this file empty (or with only comments) to skip heartbeat API calls.
+定期检查清单（每次心跳轮换 2-4 项）
 
-# Add tasks below when you want the agent to check something periodically.
+## 邮件
+- 有未读重要邮件吗？
+
+## 日历
+- 未来 24-48 小时有什么日程？
+
+## 消息
+- 有未提及我的重要通知吗？
+
+## 天气
+- 今天的天气怎么样？
+
+## 系统状态
+- OpenClaw 服务运行正常吗？
+
+## 说明
+- 晚 23:00-08:00 除非紧急不打扰
+- 同一检查间隔 <30 分钟不重复
+- 没事就回 `HEARTBEAT_OK`

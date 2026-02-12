@@ -91,8 +91,8 @@
     "deviceId": "835f17384c40859be413e12836afb10e3765a409668fcb84cdda7e8884bff42d",
     "publicKey": "h2lsRUjk9HzfmleO2O380K4KIipa_f-LZTKdvJnnutQ",
     "platform": "linux",
-    "clientId": "cli",
-    "clientMode": "cli",
+    "clientId": "gateway-client",
+    "clientMode": "backend",
     "role": "operator",
     "roles": [
       "operator"
@@ -113,10 +113,11 @@
         ],
         "createdAtMs": 1770823106008,
         "rotatedAtMs": 1770823106077,
-        "lastUsedAtMs": 1770823253104
+        "lastUsedAtMs": 1770858983813
       }
     },
     "createdAtMs": 1770823106007,
-    "approvedAtMs": 1770823106077
+    "approvedAtMs": 1770823106077,
+    "displayName": "agent"
   }
 }

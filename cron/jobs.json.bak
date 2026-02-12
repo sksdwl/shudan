@@ -1,4 +1,33 @@
 {
   "version": 1,
-  "jobs": []
+  "jobs": [
+    {
+      "id": "8bd98250-aed5-49ef-9ccd-cfe313cff47f",
+      "agentId": "main",
+      "name": "AI Hot News Collector",
+      "enabled": true,
+      "createdAtMs": 1770824984698,
+      "updatedAtMs": 1770868938777,
+      "schedule": {
+        "expr": "0 * * * *",
+        "kind": "cron",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "搜索24小时内AI热门资讯，关注社交媒体热度高的话题。\n\n步骤：\n1. 获取当前时间戳（毫秒）\n2. 计算24小时前的时间戳\n3. 使用 coze-web-search 搜索关键词 'AI 热门资讯 AI 新闻 人工智能 热门话题 2026年2月12日'，获取 20 条结果\n4. 过滤结果：只保留 publish_time 在24小时内的资讯\n5. 如果结果不足10条，扩大搜索词范围或搜索特定新闻源\n6. 将结果整理成简洁的要点列表\n7. 使用 message 工具发送给 user:ou_d5ecac4abc0d19eefea52876a8fa6555\n\n消息内容格式：\n🔥 AI热门资讯（最近24小时）\n\n1. 标题\n   - 时间：YYYY-MM-DD HH:MM\n   - 来源：xxx\n   - 链接：xxx\n   - 简述：xxx\n\n... (仅保留24小时内的内容)"
+      },
+      "delivery": {
+        "mode": "announce"
+      },
+      "state": {
+        "nextRunAtMs": 1770872400000,
+        "lastRunAtMs": 1770868800352,
+        "lastStatus": "ok",
+        "lastDurationMs": 138425
+      }
+    }
+  ]
 }
