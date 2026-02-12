@@ -1,7 +1,7 @@
 {
   "agent:main:main": {
     "sessionId": "bf553598-8d47-46a5-b86a-43b94a757a40",
-    "updatedAt": 1770872539148,
+    "updatedAt": 1770874017901,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
@@ -13,8 +13,8 @@
     "lastChannel": "webchat",
     "origin": {
       "label": "user:ou_d5ecac4abc0d19eefea52876a8fa6555",
-      "provider": "heartbeat",
-      "surface": "feishu",
+      "provider": "webchat",
+      "surface": "webchat",
       "chatType": "direct",
       "from": "user:ou_d5ecac4abc0d19eefea52876a8fa6555",
       "to": "user:ou_d5ecac4abc0d19eefea52876a8fa6555",
@@ -144,42 +144,42 @@
     "model": "glm-4-7-251222",
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1770872508615,
+      "generatedAt": 1770874013587,
       "sessionId": "bf553598-8d47-46a5-b86a-43b94a757a40",
       "sessionKey": "agent:main:main",
       "provider": "coze",
       "model": "glm-4-7-251222",
-      "workspaceDir": "/workspace/projects/workspace",
+      "workspaceDir": "/root/.openclaw/workspace-main",
       "bootstrapMaxChars": 20000,
       "sandbox": {
         "mode": "off",
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 26082,
-        "projectContextChars": 13591,
-        "nonProjectContextChars": 12491
+        "chars": 25765,
+        "projectContextChars": 13365,
+        "nonProjectContextChars": 12400
       },
       "injectedWorkspaceFiles": [
         {
           "name": "AGENTS.md",
-          "path": "/workspace/projects/workspace/AGENTS.md",
+          "path": "/root/.openclaw/workspace-main/AGENTS.md",
           "missing": false,
-          "rawChars": 8100,
-          "injectedChars": 8100,
+          "rawChars": 7804,
+          "injectedChars": 7804,
           "truncated": false
         },
         {
           "name": "SOUL.md",
-          "path": "/workspace/projects/workspace/SOUL.md",
+          "path": "/root/.openclaw/workspace-main/SOUL.md",
           "missing": false,
-          "rawChars": 3210,
-          "injectedChars": 3210,
+          "rawChars": 1664,
+          "injectedChars": 1664,
           "truncated": false
         },
         {
           "name": "TOOLS.md",
-          "path": "/workspace/projects/workspace/TOOLS.md",
+          "path": "/root/.openclaw/workspace-main/TOOLS.md",
           "missing": false,
           "rawChars": 850,
           "injectedChars": 850,
@@ -187,34 +187,34 @@
         },
         {
           "name": "IDENTITY.md",
-          "path": "/workspace/projects/workspace/IDENTITY.md",
+          "path": "/root/.openclaw/workspace-main/IDENTITY.md",
           "missing": false,
-          "rawChars": 385,
-          "injectedChars": 385,
+          "rawChars": 633,
+          "injectedChars": 633,
           "truncated": false
         },
         {
           "name": "USER.md",
-          "path": "/workspace/projects/workspace/USER.md",
+          "path": "/root/.openclaw/workspace-main/USER.md",
           "missing": false,
-          "rawChars": 433,
-          "injectedChars": 433,
+          "rawChars": 474,
+          "injectedChars": 474,
           "truncated": false
         },
         {
           "name": "HEARTBEAT.md",
-          "path": "/workspace/projects/workspace/HEARTBEAT.md",
+          "path": "/root/.openclaw/workspace-main/HEARTBEAT.md",
           "missing": false,
-          "rawChars": 224,
-          "injectedChars": 224,
+          "rawChars": 167,
+          "injectedChars": 167,
           "truncated": false
         },
         {
           "name": "BOOTSTRAP.md",
-          "path": "/workspace/projects/workspace/BOOTSTRAP.md",
-          "missing": true,
-          "rawChars": 0,
-          "injectedChars": 65,
+          "path": "/root/.openclaw/workspace-main/BOOTSTRAP.md",
+          "missing": false,
+          "rawChars": 1449,
+          "injectedChars": 1449,
           "truncated": false
         }
       ],
@@ -452,9 +452,9 @@
     },
     "lastTo": "user:ou_d5ecac4abc0d19eefea52876a8fa6555",
     "lastAccountId": "default",
-    "inputTokens": 142,
-    "outputTokens": 324,
-    "totalTokens": 106046,
+    "inputTokens": 61,
+    "outputTokens": 145,
+    "totalTokens": 105956,
     "contextTokens": 200000,
     "lastHeartbeatText": "因触发限流调用内置集成失败，请稍后重试, request id: 20260211235542FFE8452D9C3BEDC50DF2",
     "lastHeartbeatSentAt": 1770825340463
