@@ -1,1 +1,40 @@
 .firecrawl/
+
+# OpenClaw session and config files
+agents/main/sessions/*.jsonl
+agents/main/sessions/sessions.json
+agents/main/sessions/*.lock
+cron/jobs.json
+cron/runs/*.jsonl
+devices/*.json
+devices/*.pending
+identity/*.json
+openclaw.json
+openclaw.json.*
+update-check.json
+
+# Media and canvas files
+media/
+canvas/
+completions/
+
+# Backup files
+*.bak
+*.backup
+
+# Large files
+*.zip
+skills.zip
+
+# Node modules
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
